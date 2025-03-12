@@ -27,4 +27,7 @@ ipcrm -Q <queue_id>
 
 # 查看进程
 ps -ef
+
+# mac下进入docker Desktop数组机内部
+docker run -it --rm --privileged --pid=host justincormack/nsenter1
 ```
